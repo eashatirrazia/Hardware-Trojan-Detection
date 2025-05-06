@@ -1,0 +1,3 @@
+[submodule "hw2vec"]
+	path = hw2vec
+	url = https://github.com/eashatirrazia/hw2vec.git
