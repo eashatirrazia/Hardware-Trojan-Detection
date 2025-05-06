@@ -1,0 +1,58 @@
+- replicate the existing results with the new data (alpha, beta bs)
+
+
+new set of experiments
+- R-series (25 TjIn + 1 TjFree)(10 gh + 15 th)
+- B-15 series (4 TjIn + 1 TjFree)(th)
+- S-series (10 TjIn + 4 TjFree)(th)
+- PIC-series (4 TjIn + 1 TjFree)(gh)
+
+
+Positive class: TjIn
+Negative class: TjFree
+
+metrics:
+[[TN, FN][FP ,TP]]
+confusion matrix
+F1, Accuracy, Precision, Recall
+
+testing data:
+- R-series (10 + 15)
+- S-series
+- PIC-series
+- B-series
+- gh data
+
+//exp1:
+pretrained model, test on testing data
+keep names of the detected files as well
+
+//exp2:
+create new dataset for github data
+scratch training 23 gh files ()
+testing on testing data
+
+//exp3:
+from scratch S-series
+
+exp4:
+train on highlighted
+test on the S-series
+
+//exp5:
+train on consolidated data
+
+//exp6:
+train on denial of service
+
+exp7: (mustafa)
+train with agcn on S-series
+
+exp8: (mustafa)
+train with agcn on all data
+
+//exp9:
+DOS copy
+
+->exp10:
+prepare test dataset for all 4 experiments and perform inference

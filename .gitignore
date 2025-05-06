@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.v
+
+# dataset folders
+trusthub/
+data_pickles/
+Dataset_zips/
+Datasets/
+iscas/
+MustafaModels/
+results/
+results_final/
+temp_folder/
+test_csvs/
+TJ-RTL-toy-rand-*/
+trained_models/
+
+
+*.zip
+*.pth
+*.cfg
+*.log
